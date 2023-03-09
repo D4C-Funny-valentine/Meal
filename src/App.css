@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Poppins:wght@100;200;300;400;700;800&display=swap");
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/animate.css/animate.min.css";
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-family: "Merriweather", serif;
+}
+
+.bgc-mom {
+  background-color: rgb(255, 242, 232);
+  height: 100%;
+}

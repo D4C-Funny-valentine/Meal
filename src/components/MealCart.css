@@ -1,0 +1,47 @@
+.img-contain{
+    object-fit: cover;
+}
+
+.search-color{
+    background-color: rgb(255, 169, 70);
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 45%;
+    left: 42%;
+    transform: scale(0);
+    transition: 0.3s;
+}
+
+
+.card-contain:hover .search-color{
+    transform: scale(1);
+}
+
+.card-contain:hover .img-contain{
+    opacity: 0.7;
+}
+
+.img-bgc {
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/px1369813-image-kwvxxp91.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=b0bb6d55ae739cf84787c39dfe80d0ba");
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+  }
+
+.btn-color{
+    background-color: rgb(139, 115, 70);
+}
+.btn-search-order{
+    background-color: rgb(206, 164, 86);
+}
+
+.btn-search-order:hover{
+    background-color: rgb(255, 191, 71);
+}
+.btn-color:hover{
+    background-color: rgb(223, 172, 79);
+    color: white;
+}
+
+@import "/node_modules/animate.css/animate.min.css"

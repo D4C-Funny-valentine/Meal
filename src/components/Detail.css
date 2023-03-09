@@ -1,0 +1,16 @@
+.img-detail{
+    width: 80%;
+}
+
+.detail{
+    /* background-color: rgb(255, 242, 232); */
+}
+
+ul{
+
+}
+
+li{
+    list-style-type: decimal;
+    list-style-position: outside;
+}
