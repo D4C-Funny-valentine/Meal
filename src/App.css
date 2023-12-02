@@ -8,6 +8,10 @@
   font-family: "Lato", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 p {
   font-family: "Merriweather", serif;
 }
@@ -15,4 +19,8 @@ p {
 .bgc-mom {
   background-color: rgb(255, 242, 232);
   height: 100%;
+}
+
+body {
+  overflow: hidden;
 }
