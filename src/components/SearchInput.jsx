@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Feedback from "react-bootstrap/esm/Feedback";
-import { useLocation, useParams } from "react-router-dom";
-import Error from "./Error";
+import { useParams } from "react-router-dom";
 import SearchItem from "./SearchItem";
 
 const SearchInput = () => {
@@ -21,7 +19,6 @@ const SearchInput = () => {
 
     setInput(meals);
   };
-
   return (
     <div className=" mt-5 p-5 row g-4 gap-5 justify-content-center align-items-center">
       {input?.map((item) => {
